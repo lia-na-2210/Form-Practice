@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="content">
+            <div class="logo">
+            </div>
+            <div class="form-side">
+                <p id="message">You know you want to hire me as a developer. Let me handle all the problems (not the super hard ones tho) for you. I will make the best code ever.</p>
+                <div class="form-area">
+                    <h1>Let's do this!</h1>
+                    <form action="">
+                        <section>
+                            <p>
+                                <label for="first_name">
+                                    <span>First Name*: </span>
+                                </label>
+                                <input type="text" required id="first_name" name="name" placeholder=" ">
+                            </p>
+                            <p>
+                                <label for="last_name">
+                                    <span>Last Name*: </span>
+                                </label>
+                                <input type="text" required id="last_name" name="last" placeholder=" ">
+                            </p>
+                            <p>
+                                <label for="email">
+                                    <span>Email*: </span>
+                                </label>
+                                <input type="email" required id="email" name="mail" placeholder=" ">
+                            </p>
+                            <p>
+                                <label for="phone_number">
+                                    <span>Phone Number: </span>
+                                </label>
+                                <input type="tel" id="phone_number" name="tel" >
+                            </p>
+                            <p>
+                                <label for="pwd">
+                                    <span>Password*: </span>
+                                </label>
+                                <input type="password" required id="pwd" name="password" placeholder=" " minlength="8" maxlength="12">
+                            </p>
+                            <p>
+                                <label for="pwd2">
+                                    <span>Confirm Password*: </span>
+                                </label>
+                                <input type="password" required id="pwd2" name="password" placeholder=" " minlength="8" maxlength="12">
+                            </p>
+                        </section>
+                        <div class="btn" id="btn">
+                            <button type="submit">Create Account</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="log-in">
+                    <p>Already have an account? <a href="log_in"> Log in</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
